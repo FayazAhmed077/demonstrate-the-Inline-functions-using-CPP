@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+inline void displayNum(int num) 
+{
+    cout<<num<<endl;
+}
+
+int main() 
+{
+    displayNum(30);
+
+    displayNum(125);
+
+    displayNum(1000);
+
+    return 0;
+}
